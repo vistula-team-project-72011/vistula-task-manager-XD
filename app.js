@@ -110,7 +110,6 @@ async function updateTask(id, data) {
 
 // DELETE task
 async function deleteTask(id) {
-  if (!confirm('Delete this task?')) return;
   try {
     const res = await fetch(apiUrl('?id=eq.' + id), {
       method: 'DELETE',
