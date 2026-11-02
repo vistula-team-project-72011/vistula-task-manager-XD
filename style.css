@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 10px;
+}
+
+#task-form input {
+  padding: 6px;
+  margin-right: 5px;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-item.done .task-title {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-item button {
+  margin-right: 5px;
+}
+
+#status-message {
+  color: #c00;
+}
